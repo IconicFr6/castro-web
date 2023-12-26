@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Smooth - The Perfect Music Bot</title>
+  <meta name="title" content="Smooth - The Perfect Music Bot">
+  <meta name="description" content="Smooth bot website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="<%= pfp %>" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"> <img src="<%= pfp %>" width="100" height="100" alt="logo">
+      
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo"><h2><%= name %></h2>
+        
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Features</a>
+          </li>
+
+          <li>
+            <a href="#stat" class="navbar-link">Stats</a>
+          </li>
+
+          <li>
+            <a href="/server" class="navbar-link">Support</a>
+          </li>
+
+          <li>
+            <a href="/premium" class="navbar-link">Premium</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="btn-group">
+      
+
+        <a href="/invite" class="btn btn-primary">Invite Bot</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" aria-label="home">
+        <div class="container">
+
+ <div class="hero-banner">
+            <figure class="hero-banner">
+              <img src="<%= pfp %>" width="799" height="823" alt="hero banner" class="w-100">
+            </figure>
+          </div>
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Smooth Music</h1>
+
+            <p class="hero-text">
+              <%= description %>
+            </p>
+
+            <div class="btn-group">
+              <a href="/invite" class="btn btn-primary">Invite Bot</a>
+
+              <a href="#" class="play-btn">
+                <div class="icon">
+                  <ion-icon name="logo-discord" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span"><a href="/server">Support Server</a></span>
+              </a>
+            </div>
+
+          </div>
+
+         
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section promo" aria-label="promo">
+        <div class="container" id="service">
+
+          <h2 class="h2 section-title text-center">Top Features Of <b>Smooth Music</b></h2>
+
+          <p class="section-text text-center">
+            <b>Elevate Your Vibes with Effortless Elegance, Where Every Note Glides Like Silk</b>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="musical-notes-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">24/7 Playback</h3>
+
+                <p class="card-text">
+                  <%= f2 %>
+                </p>
+
+                <a href="https://discord.com/api/oauth2/authorize?client_id=957901613463380008&permissions=66667609910513&scope=bot%20applications.commands" class="btn-link">
+                  <span class="span">Explore More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Music Playlists</h3>
+
+                <p class="card-text">
+                  <%= f1 %>
+                </p>
+
+                <a href="https://discord.com/api/oauth2/authorize?client_id=957901613463380008&permissions=66667609910513&scope=bot%20applications.commands" class="btn-link">
+                  <span class="span">Explore More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="mic-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">High Quality</h3>
+
+                <p class="card-text">
+                  <%= f3 %>
+                </p>
+
+                <a href="https://discord.com/api/oauth2/authorize?client_id=957901613463380008&permissions=66667609910513&scope=bot%20applications.commands" class="btn-link">
+                  <span class="span">Explore More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="statistics">
+        <div class="container" id="stat">
+
+          <div class="stats-content">
+
+            <h2 class="h2 section-title">About Smooth</h2>
+
+            <p class="section-text">
+              Smooth is a versatile and user-friendly music bot designed for Discord servers, offering seamless music playback and an array of features for an enhanced listening experience.
+            </p>
+
+            <p class="section-text">
+             This bot was choosed by many servers they like the features of this bot. We have got many positive reviews on our bot.
+            </p>
+
+            <ul class="stats-list">
+
+              <li>
+                <div class="stats-card bg-gray">
+
+                  <h3 class="h3 card-title">500k+</h3>
+
+                  <p class="card-text">
+                    Total Users
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card bg-gray">
+
+                  <h3 class="h3 card-title">1000+</h3>
+
+                  <p class="card-text">
+                  Total Servers
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card bg-gray">
+
+                  <h3 class="h3 card-title">100+</h3>
+
+                  <p class="card-text">
+                    Total Votes
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="stats-banner">
+            <img src="/images/stats-banner.png" width="797" height="454" alt="map" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" aria-label="instruction">
+        <div class="container" id="feature">
+
+          <ul class="grid-list">
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+  
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright Smooth Bot 2024. All rights reserved.
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Invite Smooth</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Support Server</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+<!-- Github: diwasatreya -->
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon-link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
