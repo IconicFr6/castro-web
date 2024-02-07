@@ -1,11 +1,11 @@
 {
   "port": "8000",
-  "name": "Smooth Bot",
-  "description": "Elevate Your Vibes with Effortless Elegance, Where Every Note Glides Like Silk.",
-  "invite": "https://discord.com/api/oauth2/authorize?client_id=957901613463380008&permissions=66667609910513&scope=bot%20applications.commands",
-  "support": "https://discord.com/invite/QPSvRGEaYp",
-  "pfp": "https://cdn.discordapp.com/attachments/1187796482527612930/1188816303570550804/Asset_392x-8-1-removebg-preview.png?ex=659be675&is=65897175&hm=f1df19bd1c101be625ec7d51d2f362df9e5155843ee9c6b2b08837f19dae9333&",
-  "feature1": "Music, It can play different kind of music from different platforms like spotify, youtube, etc.",
+  "name": "Castro",
+  "description": "One Of The Best Music Bot's In The World.",
+  "invite": "https://discord.com/oauth2/authorize?client_id=898435982775435264&permissions=8&scope=bot%20applications.commands",
+  "support": "https://discord.gg/gVzTbSfAKB",
+  "pfp": "https://cdn.discordapp.com/attachments/1191251026557276240/1201537136852217887/castro.png.webp?ex=65ca2da8&is=65b7b8a8&hm=c57f0b0ac285a2ce6ae86ae3206ed93658a860be91d7223a9074f9ab78ebbd7f&",
+  "feature1": "Music, It can play different kind of music from different platforms like spotify, etc.",
   "feature2": "24/7 Music, It can play music 24/7 without any problem and it is free forever.",
   "feature3": "Stream your selected audio in the premium quality for free, without any ads 24/7.",
   "feature4": "Intuitive interface; control everything with simple commands."
